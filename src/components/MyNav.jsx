@@ -8,7 +8,7 @@ const MyNav = () => (
   <Navbar expand="lg" variant="dark" className="px-4">
     <Container fluid>
       <Navbar.Brand href="#">
-        <img src={logo} alt="Netflix Logo" width="148px" />
+        <img src={logo} alt="Netflix Logo" width="140px" />
       </Navbar.Brand>
 
       <Navbar.Collapse id="mainNav">
@@ -27,10 +27,10 @@ const MyNav = () => (
         <span>KIDS</span>
         <Bell size={20}></Bell>
         <div className="dropdown">
-          <NavDropdown title={<img src={avatar} alt="User Avatar" width="48px" />} id="basic-nav-dropdown">
+          <NavDropdown title={<img src={avatar} alt="User Avatar" width="35px" />} id="basic-nav-dropdown">
             <NavDropdown.Item href="#">
               {" "}
-              <img src={kids} alt="User Avatar" width="48px" /> Kids
+              <img src={kids} alt="User Avatar" width="35px" /> Kids
             </NavDropdown.Item>
             <NavDropdown.Item href="#">Manage Profiles</NavDropdown.Item>
 

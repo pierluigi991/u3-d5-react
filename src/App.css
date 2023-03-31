@@ -7,6 +7,9 @@
   left: -100px;
   background-color: #343a40;
 }
+.dropdown-item:hover {
+  color: #000 !important;
+}
 
 .films {
   overflow: auto;
